@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>26 Jun 2022, 20:00</td>
+      <td>30 Jun 2022, 16:07</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname"></td>
-          <td      class="passed"    >35</td>
-          <td >0</td>
-          <td >0</td>
+          <td      class="passed"    >4</td>
+          <td      class="failed"    >7</td>
+          <td     class="skipped"   >24</td>
           <td >0</td>
           <td >0</td>
           <td class="total">35</td>
 
-          <td  class="passed"    >8</td>
-          <td >0</td>
+          <td  class="passed"    >1</td>
+          <td  class="failed"    >7</td>
           <td class="total">8</td>
 
-          <td class="duration" data-value="28417475200">28.417</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="95510964900">1:35.510</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -177,7 +177,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name"></span>
 
@@ -199,7 +199,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">7.740</span>
+  <span class="lead-duration duration">5.072</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -242,7 +242,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">User open browser</span>
 
-  <span class="lead-duration duration">1.314</span>
+  <span class="lead-duration duration">1.357</span>
 
 </div>
 
@@ -269,7 +269,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User on the Vodafone website homepage</span>
 
-  <span class="lead-duration duration">3.316</span>
+  <span class="lead-duration duration">3.544</span>
 
 </div>
 
@@ -296,7 +296,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User on the login page</span>
 
-  <span class="lead-duration duration">3.109</span>
+  <span class="lead-duration duration">0.170</span>
 
 </div>
 
@@ -338,12 +338,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">7.097</span>
+  <span class="lead-duration duration">10.072</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">2-Login test with valid username and password</span>
 
@@ -354,16 +354,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-3" class="collapse collapsable-details ">
+  <div id="element-3" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -373,15 +373,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-4" class="inner-level collapse collapsable-details ">
+  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User enter username</span>
 
-  <span class="lead-duration duration">0.383</span>
+  <span class="lead-duration duration">10.072</span>
 
 </div>
 
@@ -389,6 +389,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.enterEmail(Login.java:18)
+	at Vodafone.step_definitions.LoginStepDef.userEnterUsername(LoginStepDef.java:42)
+	at &#10045;.User enter username(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:11)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -404,11 +442,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter password</span>
 
-  <span class="lead-duration duration">0.052</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -431,11 +469,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click with the <span class="argument">&quot;Sign in&quot;</span></span>
 
-  <span class="lead-duration duration">2.585</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -458,11 +496,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click <span class="argument">&quot;Logout&quot;</span></span>
 
-  <span class="lead-duration duration">4.075</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -504,12 +542,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.946</span>
+  <span class="lead-duration duration">10.059</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">3-Negative Test for Login via valid username invalid  password</span>
 
@@ -520,16 +558,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-6" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -539,15 +577,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-6" class="inner-level collapse collapsable-details ">
+  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User enter username</span>
 
-  <span class="lead-duration duration">0.063</span>
+  <span class="lead-duration duration">10.059</span>
 
 </div>
 
@@ -555,6 +593,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.enterEmail(Login.java:18)
+	at Vodafone.step_definitions.LoginStepDef.userEnterUsername(LoginStepDef.java:42)
+	at &#10045;.User enter username(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:17)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -570,11 +646,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter password <span class="argument">&quot;111111&quot;</span></span>
 
-  <span class="lead-duration duration">1.088</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -597,11 +673,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click with the <span class="argument">&quot;Sign in&quot;</span></span>
 
-  <span class="lead-duration duration">1.754</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -624,11 +700,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;Authentication failed&quot;</span></span>
 
-  <span class="lead-duration duration">0.040</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -670,12 +746,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">3.468</span>
+  <span class="lead-duration duration">10.017</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-9">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">4-Negative Test for Login via invalid username with space</span>
 
@@ -686,16 +762,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details ">
+  <div id="element-9" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -705,15 +781,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-8" class="inner-level collapse collapsable-details ">
+  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">User clean the username password box</span>
 
-  <span class="lead-duration duration">0.090</span>
+  <span class="lead-duration duration">10.016</span>
 
 </div>
 
@@ -721,6 +797,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-11">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.clearEmailBox(Login.java:48)
+	at Vodafone.step_definitions.LoginStepDef.userCleanTheUsernamePasswordBox(LoginStepDef.java:63)
+	at &#10045;.User clean the username password box(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:23)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -736,11 +850,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter username <span class="argument">&quot;negativeTest @test.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.068</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -763,11 +877,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter password</span>
 
-  <span class="lead-duration duration">0.052</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -790,11 +904,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click with the <span class="argument">&quot;Sign in&quot;</span></span>
 
-  <span class="lead-duration duration">3.222</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -817,11 +931,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;Invalid email address.&quot;</span></span>
 
-  <span class="lead-duration duration">0.034</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -863,12 +977,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.578</span>
+  <span class="lead-duration duration">10.055</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-12">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">5-Negative Test for Login via wrong username and wrong password</span>
 
@@ -879,16 +993,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-12" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-13">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -898,15 +1012,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details ">
+  <div id="steps-13" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User clean the username password box</span>
 
-  <span class="lead-duration duration">0.076</span>
+  <span class="lead-duration duration">10.055</span>
 
 </div>
 
@@ -914,6 +1028,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-14">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.clearEmailBox(Login.java:48)
+	at Vodafone.step_definitions.LoginStepDef.userCleanTheUsernamePasswordBox(LoginStepDef.java:63)
+	at &#10045;.User clean the username password box(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:30)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -929,11 +1081,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter username <span class="argument">&quot;negativeTest@test.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.050</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -956,11 +1108,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter password <span class="argument">&quot;wrongPassword123&quot;</span></span>
 
-  <span class="lead-duration duration">1.092</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -983,11 +1135,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click with the <span class="argument">&quot;Sign in&quot;</span></span>
 
-  <span class="lead-duration duration">1.330</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1010,11 +1162,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;Authentication failed&quot;</span></span>
 
-  <span class="lead-duration duration">0.028</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1056,12 +1208,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.948</span>
+  <span class="lead-duration duration">30.118</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-15">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">6-User  reset email test with invalid user email</span>
 
@@ -1072,16 +1224,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details ">
+  <div id="element-15" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-16">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1091,7 +1243,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details ">
+  <div id="steps-16" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -1099,7 +1251,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User click the <span class="argument">&quot;Forgot your password?&quot;</span></span>
 
-  <span class="lead-duration duration">1.107</span>
+  <span class="lead-duration duration">20.054</span>
 
 </div>
 
@@ -1122,11 +1274,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User enter username <span class="argument">&quot;negativeTest@test.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.052</span>
+  <span class="lead-duration duration">10.063</span>
 
 </div>
 
@@ -1134,6 +1286,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-17">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.enterEmailWithData(Login.java:54)
+	at Vodafone.step_definitions.LoginStepDef.userEnterUsername(LoginStepDef.java:69)
+	at &#10045;.User enter username &quot;negativeTest@test.com&quot;(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:38)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1149,11 +1339,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click the <span class="argument">&quot;Retrieve Password&quot;</span></span>
 
-  <span class="lead-duration duration">0.755</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1176,11 +1366,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;There is no account registered for this email address.&quot;</span></span>
 
-  <span class="lead-duration duration">0.033</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1222,12 +1412,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.082</span>
+  <span class="lead-duration duration">10.047</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-18">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">7-User  reset email test with invalid email</span>
 
@@ -1238,16 +1428,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-13" class="collapse collapsable-details ">
+  <div id="element-18" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-19">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1257,15 +1447,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-14" class="inner-level collapse collapsable-details ">
+  <div id="steps-19" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User clear the box <span class="argument">&quot;(//div//input)[1]&quot;</span></span>
 
-  <span class="lead-duration duration">0.038</span>
+  <span class="lead-duration duration">10.047</span>
 
 </div>
 
@@ -1273,6 +1463,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-20">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.clearEmailBox(Login.java:48)
+	at Vodafone.step_definitions.LoginStepDef.userClearTheBox(LoginStepDef.java:81)
+	at &#10045;.User clear the box &quot;(//div//input)[1]&quot;(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:43)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1288,11 +1516,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter username <span class="argument">&quot;invalid email&quot;</span></span>
 
-  <span class="lead-duration duration">0.042</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1315,11 +1543,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click the <span class="argument">&quot;Retrieve Password&quot;</span></span>
 
-  <span class="lead-duration duration">0.936</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1342,11 +1570,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;Invalid email address.&quot;</span></span>
 
-  <span class="lead-duration duration">0.035</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1369,11 +1597,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User clear the box <span class="argument">&quot;(//div//input)[1]&quot;</span></span>
 
-  <span class="lead-duration duration">0.029</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1415,13 +1643,13 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.555</span>
+  <span class="lead-duration duration">10.066</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-21">
 
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
   <span class="name">8-User  reset email test with invalid email</span>
 
 
@@ -1431,16 +1659,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-15" class="collapse collapsable-details ">
+  <div id="element-21" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-22">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1450,15 +1678,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details ">
+  <div id="steps-22" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">User clear the box <span class="argument">&quot;(//div//input)[1]&quot;</span></span>
 
-  <span class="lead-duration duration">0.022</span>
+  <span class="lead-duration duration">10.066</span>
 
 </div>
 
@@ -1466,6 +1694,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-23">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='email']&quot;}
+  (Session info: headless chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S9970J2S', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ilham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe2da2865bad9b5e263c8ef29d1d2795
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Vodafone.pages.Login.clearEmailBox(Login.java:48)
+	at Vodafone.step_definitions.LoginStepDef.userClearTheBox(LoginStepDef.java:81)
+	at &#10045;.User clear the box &quot;(//div//input)[1]&quot;(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:50)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1481,11 +1747,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User enter username <span class="argument">&quot;testsilicontest@gmail.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.041</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1508,11 +1774,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click the <span class="argument">&quot;Retrieve Password&quot;</span></span>
 
-  <span class="lead-duration duration">1.393</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1535,11 +1801,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User verify message <span class="argument">&quot;A confirmation email has been sent to your address: testsilicontest@gmail.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.035</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1562,11 +1828,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User close browser</span>
 
-  <span class="lead-duration duration">0.062</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 

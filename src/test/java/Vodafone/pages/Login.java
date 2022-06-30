@@ -15,9 +15,11 @@ public class Login extends GenericFunctions {
     }
     public void enterEmail(){
 
+        waitFor(2);
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys(ConfigurationReader.get("username"));
     }
     public void enterPassword(){
+        waitFor(2);
         driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys(ConfigurationReader.get("password"));
     }
     public void user_click_with_the(String linkText ){
@@ -39,6 +41,7 @@ public class Login extends GenericFunctions {
 
     }
     public void enterPasswordWithData(String password){
+        waitFor(1);
         driver.findElement(By.xpath("//input[@id='passwd']")).clear();
         waitFor(1);
         driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys(password);

@@ -96,6 +96,7 @@ You can click the link with in the 24 hours and check the all test steps and sta
 (Right Click and Open in any Browser )
 
 
+
 ┌──────────────────────────────────────────────────────────────────────────┐
 │ View your Cucumber Report at:                                            │
 │ https://reports.cucumber.io/reports/60967f72-cedd-4927-a451-63d8edf3a221 │
@@ -105,7 +106,6 @@ You can click the link with in the 24 hours and check the all test steps and sta
 
 Process finished with exit code 0
 └──────────────────────────────────────────────────────────────────────────┘
-
 
 ----------------
 
