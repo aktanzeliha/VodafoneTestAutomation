@@ -1,7 +1,7 @@
 @regression
 @smoke
 @wip
-Feature:
+Feature:Login test
 
   Scenario:1-Open browser and the Vodafone Page
     Given User open browser
