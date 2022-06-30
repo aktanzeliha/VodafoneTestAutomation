@@ -3,7 +3,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2022-06-30T14:42:18.876Z",
+        "start_timestamp": "2022-06-30T15:01:22.500Z",
         "line": 6,
         "name": "1-Open browser and the Vodafone Page",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1589616500,
+              "duration": 1276515900,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 4927183500,
+              "duration": 3471459400,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 4091587800,
+              "duration": 1714922800,
               "status": "passed"
             },
             "line": 9,
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:29.563Z",
+        "start_timestamp": "2022-06-30T15:01:29.026Z",
         "line": 10,
         "name": "2-Login test with valid username and password",
         "description": "",
@@ -71,7 +71,7 @@
         "steps": [
           {
             "result": {
-              "duration": 416909500,
+              "duration": 309056100,
               "status": "passed"
             },
             "line": 11,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 85001200,
+              "duration": 53672100,
               "status": "passed"
             },
             "line": 12,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 6106780000,
+              "duration": 2766073200,
               "status": "passed"
             },
             "line": 13,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 2586932600,
+              "duration": 4959628400,
               "status": "passed"
             },
             "line": 14,
@@ -143,7 +143,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:38.769Z",
+        "start_timestamp": "2022-06-30T15:01:37.128Z",
         "line": 16,
         "name": "3-Negative Test for Login via valid username invalid  password",
         "description": "",
@@ -153,9 +153,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//input[@id\u003d\u0027email\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.enterEmail(Login.java:18)\r\n\tat Vodafone.step_definitions.LoginStepDef.userEnterUsername(LoginStepDef.java:42)\r\n\tat ✽.User enter username(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:17)\r\n",
-              "duration": 9356735200,
-              "status": "failed"
+              "duration": 61628500,
+              "status": "passed"
             },
             "line": 17,
             "name": "User enter username",
@@ -166,8 +165,8 @@
           },
           {
             "result": {
-              "duration": 2000200,
-              "status": "skipped"
+              "duration": 1094769000,
+              "status": "passed"
             },
             "line": 18,
             "name": "User enter password \"111111\"",
@@ -184,8 +183,8 @@
           },
           {
             "result": {
-              "duration": 992700,
-              "status": "skipped"
+              "duration": 1726515300,
+              "status": "passed"
             },
             "line": 19,
             "name": "User click with the \"Sign in\"",
@@ -202,7 +201,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 44003300,
+              "status": "passed"
             },
             "line": 20,
             "name": "User verify message \"Authentication failed\"",
@@ -231,7 +231,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:48.185Z",
+        "start_timestamp": "2022-06-30T15:01:40.065Z",
         "line": 22,
         "name": "4-Negative Test for Login via invalid username with space",
         "description": "",
@@ -241,9 +241,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\ilham\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f59bad6b2c8b9c24df5da29ead0925b8\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.clearEmailBox(Login.java:48)\r\n\tat Vodafone.step_definitions.LoginStepDef.userCleanTheUsernamePasswordBox(LoginStepDef.java:63)\r\n\tat ✽.User clean the username password box(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:23)\r\n",
-              "duration": 13985400,
-              "status": "failed"
+              "duration": 77995600,
+              "status": "passed"
             },
             "line": 23,
             "name": "User clean the username password box",
@@ -254,7 +253,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52004600,
+              "status": "passed"
             },
             "line": 24,
             "name": "User enter username \"negativeTest @test.com\"",
@@ -271,7 +271,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 44020400,
+              "status": "passed"
             },
             "line": 25,
             "name": "User enter password",
@@ -282,7 +283,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2601832200,
+              "status": "passed"
             },
             "line": 26,
             "name": "User click with the \"Sign in\"",
@@ -299,8 +301,8 @@
           },
           {
             "result": {
-              "duration": 998300,
-              "status": "skipped"
+              "duration": 36333900,
+              "status": "passed"
             },
             "line": 27,
             "name": "User verify message \"Invalid email address.\"",
@@ -329,7 +331,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:48.225Z",
+        "start_timestamp": "2022-06-30T15:01:42.884Z",
         "line": 29,
         "name": "5-Negative Test for Login via wrong username and wrong password",
         "description": "",
@@ -339,9 +341,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\ilham\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f59bad6b2c8b9c24df5da29ead0925b8\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.clearEmailBox(Login.java:48)\r\n\tat Vodafone.step_definitions.LoginStepDef.userCleanTheUsernamePasswordBox(LoginStepDef.java:63)\r\n\tat ✽.User clean the username password box(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:30)\r\n",
-              "duration": 15006200,
-              "status": "failed"
+              "duration": 68566300,
+              "status": "passed"
             },
             "line": 30,
             "name": "User clean the username password box",
@@ -352,7 +353,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 44997000,
+              "status": "passed"
             },
             "line": 31,
             "name": "User enter username \"negativeTest@test.com\"",
@@ -369,7 +371,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1085168800,
+              "status": "passed"
             },
             "line": 32,
             "name": "User enter password \"wrongPassword123\"",
@@ -386,7 +389,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2758846700,
+              "status": "passed"
             },
             "line": 33,
             "name": "User click with the \"Sign in\"",
@@ -403,7 +407,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 34019400,
+              "status": "passed"
             },
             "line": 34,
             "name": "User verify message \"Authentication failed\"",
@@ -432,7 +437,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:48.255Z",
+        "start_timestamp": "2022-06-30T15:01:46.880Z",
         "line": 36,
         "name": "6-User  reset email test with invalid user email",
         "description": "",
@@ -442,7 +447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19000600,
+              "duration": 1567469800,
               "status": "passed"
             },
             "line": 37,
@@ -460,9 +465,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\ilham\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f59bad6b2c8b9c24df5da29ead0925b8\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.enterEmailWithData(Login.java:54)\r\n\tat Vodafone.step_definitions.LoginStepDef.userEnterUsername(LoginStepDef.java:69)\r\n\tat ✽.User enter username \"negativeTest@test.com\"(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:38)\r\n",
-              "duration": 5998800,
-              "status": "failed"
+              "duration": 45106200,
+              "status": "passed"
             },
             "line": 38,
             "name": "User enter username \"negativeTest@test.com\"",
@@ -479,7 +483,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1186498700,
+              "status": "passed"
             },
             "line": 39,
             "name": "User click the \"Retrieve Password\"",
@@ -496,7 +501,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 34310600,
+              "status": "passed"
             },
             "line": 40,
             "name": "User verify message \"There is no account registered for this email address.\"",
@@ -525,7 +531,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:48.293Z",
+        "start_timestamp": "2022-06-30T15:01:49.721Z",
         "line": 42,
         "name": "7-User  reset email test with invalid email",
         "description": "",
@@ -535,9 +541,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\ilham\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f59bad6b2c8b9c24df5da29ead0925b8\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.clearEmailBox(Login.java:48)\r\n\tat Vodafone.step_definitions.LoginStepDef.userClearTheBox(LoginStepDef.java:81)\r\n\tat ✽.User clear the box \"(//div//input)[1]\"(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:43)\r\n",
-              "duration": 6002000,
-              "status": "failed"
+              "duration": 31057000,
+              "status": "passed"
             },
             "line": 43,
             "name": "User clear the box \"(//div//input)[1]\"",
@@ -554,7 +559,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41547800,
+              "status": "passed"
             },
             "line": 44,
             "name": "User enter username \"invalid email\"",
@@ -571,7 +577,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1245510000,
+              "status": "passed"
             },
             "line": 45,
             "name": "User click the \"Retrieve Password\"",
@@ -588,7 +595,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 29209500,
+              "status": "passed"
             },
             "line": 46,
             "name": "User verify message \"Invalid email address.\"",
@@ -605,7 +613,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 29509900,
+              "status": "passed"
             },
             "line": 47,
             "name": "User clear the box \"(//div//input)[1]\"",
@@ -634,19 +643,18 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T14:42:48.311Z",
-        "line": 49,
+        "start_timestamp": "2022-06-30T15:01:51.103Z",
+        "line": 57,
         "name": "8-User  reset email test with invalid email",
         "description": "",
-        "id": ";8-user--reset-email-test-with-invalid-email",
+        "id": ";8-user--reset-email-test-with-invalid-email;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-S9970J2S\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\ilham\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f59bad6b2c8b9c24df5da29ead0925b8\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Vodafone.pages.Login.clearEmailBox(Login.java:48)\r\n\tat Vodafone.step_definitions.LoginStepDef.userClearTheBox(LoginStepDef.java:81)\r\n\tat ✽.User clear the box \"(//div//input)[1]\"(file:///C:/Users/ilham/IdeaProjects/VodafoneTestAutomation/src/test/resources/features/Login.feature:50)\r\n",
-              "duration": 5003100,
-              "status": "failed"
+              "duration": 25238200,
+              "status": "passed"
             },
             "line": 50,
             "name": "User clear the box \"(//div//input)[1]\"",
@@ -663,7 +671,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45334500,
+              "status": "passed"
             },
             "line": 51,
             "name": "User enter username \"testsilicontest@gmail.com\"",
@@ -680,7 +689,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1494472700,
+              "status": "passed"
             },
             "line": 52,
             "name": "User click the \"Retrieve Password\"",
@@ -697,7 +707,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 36254400,
+              "status": "passed"
             },
             "line": 53,
             "name": "User verify message \"A confirmation email has been sent to your address: testsilicontest@gmail.com\"",
@@ -714,7 +725,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 83853100,
+              "status": "passed"
             },
             "line": 54,
             "name": "User close browser",

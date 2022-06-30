@@ -46,10 +46,13 @@ Feature:
     Then User verify message "Invalid email address."
     And User clear the box "(//div//input)[1]"
 
-  Scenario:8-User  reset email test with invalid email
+  Scenario Outline:8-User  reset email test with invalid email
     And User clear the box "(//div//input)[1]"
-    And User enter username "testsilicontest@gmail.com"
+    And User enter username "<email>"
     And User click the "Retrieve Password"
-    Then User verify message "A confirmation email has been sent to your address: testsilicontest@gmail.com"
+    Then User verify message "<message>"
     Then User close browser
+    Examples:
+      | email | message |
+      | testsilicontest@gmail.com | A confirmation email has been sent to your address: testsilicontest@gmail.com |
 
